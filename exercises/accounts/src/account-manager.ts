@@ -4,13 +4,13 @@ export interface IUser {
 }
 
 export interface IConfirmedUser extends IUser {
-  isActive: true;
+  isActive: boolean;
 }
 
 export interface IAdmin extends IConfirmedUser {
   email: string;
   password: string;
-  isActive: true;
+  isActive: boolean;
   adminSince: Date;
 }
 

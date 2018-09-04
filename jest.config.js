@@ -5,5 +5,6 @@ module.exports = {
     "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
   },
   testMatch: ["**/tests/*.(ts|tsx|js|jsx)"],
-  moduleDirectories: ["node_modules", "bower_components"]
+  moduleDirectories: ["node_modules", "bower_components"],
+  testEnvironment: "node"
 };
